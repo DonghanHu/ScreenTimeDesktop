@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA14FA4F2D4C16210041D037 /* ScreenTimeDesktopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA4E2D4C16210041D037 /* ScreenTimeDesktopApp.swift */; };
+		EA14FA512D4C16210041D037 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA502D4C16210041D037 /* ContentView.swift */; };
+		EA14FA532D4C16220041D037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA14FA522D4C16220041D037 /* Assets.xcassets */; };
+		EA14FA562D4C16220041D037 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA14FA552D4C16220041D037 /* Preview Assets.xcassets */; };
+		EA14FA612D4C16220041D037 /* ScreenTimeDesktopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA602D4C16220041D037 /* ScreenTimeDesktopTests.swift */; };
+		EA14FA6B2D4C16220041D037 /* ScreenTimeDesktopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA6A2D4C16220041D037 /* ScreenTimeDesktopUITests.swift */; };
+		EA14FA6D2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA6C2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA14FA5D2D4C16220041D037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA14FA432D4C16210041D037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA14FA4A2D4C16210041D037;
+			remoteInfo = ScreenTimeDesktop;
+		};
+		EA14FA672D4C16220041D037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA14FA432D4C16210041D037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA14FA4A2D4C16210041D037;
+			remoteInfo = ScreenTimeDesktop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA14FA4B2D4C16210041D037 /* ScreenTimeDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTimeDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14FA4E2D4C16210041D037 /* ScreenTimeDesktopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeDesktopApp.swift; sourceTree = "<group>"; };
+		EA14FA502D4C16210041D037 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA14FA522D4C16220041D037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA14FA552D4C16220041D037 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA14FA572D4C16220041D037 /* ScreenTimeDesktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenTimeDesktop.entitlements; sourceTree = "<group>"; };
+		EA14FA5C2D4C16220041D037 /* ScreenTimeDesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTimeDesktopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14FA602D4C16220041D037 /* ScreenTimeDesktopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeDesktopTests.swift; sourceTree = "<group>"; };
+		EA14FA662D4C16220041D037 /* ScreenTimeDesktopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTimeDesktopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14FA6A2D4C16220041D037 /* ScreenTimeDesktopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeDesktopUITests.swift; sourceTree = "<group>"; };
+		EA14FA6C2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeDesktopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA14FA482D4C16210041D037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14FA592D4C16220041D037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14FA632D4C16220041D037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA14FA422D4C16210041D037 = {
+			isa = PBXGroup;
+			children = (
+				EA14FA4D2D4C16210041D037 /* ScreenTimeDesktop */,
+				EA14FA5F2D4C16220041D037 /* ScreenTimeDesktopTests */,
+				EA14FA692D4C16220041D037 /* ScreenTimeDesktopUITests */,
+				EA14FA4C2D4C16210041D037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA14FA4C2D4C16210041D037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA14FA4B2D4C16210041D037 /* ScreenTimeDesktop.app */,
+				EA14FA5C2D4C16220041D037 /* ScreenTimeDesktopTests.xctest */,
+				EA14FA662D4C16220041D037 /* ScreenTimeDesktopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA14FA4D2D4C16210041D037 /* ScreenTimeDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				EA14FA4E2D4C16210041D037 /* ScreenTimeDesktopApp.swift */,
+				EA14FA502D4C16210041D037 /* ContentView.swift */,
+				EA14FA522D4C16220041D037 /* Assets.xcassets */,
+				EA14FA572D4C16220041D037 /* ScreenTimeDesktop.entitlements */,
+				EA14FA542D4C16220041D037 /* Preview Content */,
+			);
+			path = ScreenTimeDesktop;
+			sourceTree = "<group>";
+		};
+		EA14FA542D4C16220041D037 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA14FA552D4C16220041D037 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA14FA5F2D4C16220041D037 /* ScreenTimeDesktopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA14FA602D4C16220041D037 /* ScreenTimeDesktopTests.swift */,
+			);
+			path = ScreenTimeDesktopTests;
+			sourceTree = "<group>";
+		};
+		EA14FA692D4C16220041D037 /* ScreenTimeDesktopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA14FA6A2D4C16220041D037 /* ScreenTimeDesktopUITests.swift */,
+				EA14FA6C2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift */,
+			);
+			path = ScreenTimeDesktopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA14FA4A2D4C16210041D037 /* ScreenTimeDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA14FA702D4C16220041D037 /* Build configuration list for PBXNativeTarget "ScreenTimeDesktop" */;
+			buildPhases = (
+				EA14FA472D4C16210041D037 /* Sources */,
+				EA14FA482D4C16210041D037 /* Frameworks */,
+				EA14FA492D4C16210041D037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenTimeDesktop;
+			productName = ScreenTimeDesktop;
+			productReference = EA14FA4B2D4C16210041D037 /* ScreenTimeDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA14FA5B2D4C16220041D037 /* ScreenTimeDesktopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA14FA732D4C16220041D037 /* Build configuration list for PBXNativeTarget "ScreenTimeDesktopTests" */;
+			buildPhases = (
+				EA14FA582D4C16220041D037 /* Sources */,
+				EA14FA592D4C16220041D037 /* Frameworks */,
+				EA14FA5A2D4C16220041D037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA14FA5E2D4C16220041D037 /* PBXTargetDependency */,
+			);
+			name = ScreenTimeDesktopTests;
+			productName = ScreenTimeDesktopTests;
+			productReference = EA14FA5C2D4C16220041D037 /* ScreenTimeDesktopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA14FA652D4C16220041D037 /* ScreenTimeDesktopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA14FA762D4C16220041D037 /* Build configuration list for PBXNativeTarget "ScreenTimeDesktopUITests" */;
+			buildPhases = (
+				EA14FA622D4C16220041D037 /* Sources */,
+				EA14FA632D4C16220041D037 /* Frameworks */,
+				EA14FA642D4C16220041D037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA14FA682D4C16220041D037 /* PBXTargetDependency */,
+			);
+			name = ScreenTimeDesktopUITests;
+			productName = ScreenTimeDesktopUITests;
+			productReference = EA14FA662D4C16220041D037 /* ScreenTimeDesktopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA14FA432D4C16210041D037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EA14FA4A2D4C16210041D037 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EA14FA5B2D4C16220041D037 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EA14FA4A2D4C16210041D037;
+					};
+					EA14FA652D4C16220041D037 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EA14FA4A2D4C16210041D037;
+					};
+				};
+			};
+			buildConfigurationList = EA14FA462D4C16210041D037 /* Build configuration list for PBXProject "ScreenTimeDesktop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA14FA422D4C16210041D037;
+			productRefGroup = EA14FA4C2D4C16210041D037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA14FA4A2D4C16210041D037 /* ScreenTimeDesktop */,
+				EA14FA5B2D4C16220041D037 /* ScreenTimeDesktopTests */,
+				EA14FA652D4C16220041D037 /* ScreenTimeDesktopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA14FA492D4C16210041D037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14FA562D4C16220041D037 /* Preview Assets.xcassets in Resources */,
+				EA14FA532D4C16220041D037 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14FA5A2D4C16220041D037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14FA642D4C16220041D037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA14FA472D4C16210041D037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14FA512D4C16210041D037 /* ContentView.swift in Sources */,
+				EA14FA4F2D4C16210041D037 /* ScreenTimeDesktopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14FA582D4C16220041D037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14FA612D4C16220041D037 /* ScreenTimeDesktopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA14FA622D4C16220041D037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14FA6D2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift in Sources */,
+				EA14FA6B2D4C16220041D037 /* ScreenTimeDesktopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA14FA5E2D4C16220041D037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA14FA4A2D4C16210041D037 /* ScreenTimeDesktop */;
+			targetProxy = EA14FA5D2D4C16220041D037 /* PBXContainerItemProxy */;
+		};
+		EA14FA682D4C16220041D037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA14FA4A2D4C16210041D037 /* ScreenTimeDesktop */;
+			targetProxy = EA14FA672D4C16220041D037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA14FA6E2D4C16220041D037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA14FA6F2D4C16220041D037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EA14FA712D4C16220041D037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeDesktop/ScreenTimeDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimeDesktop/Preview Content\"";
+				DEVELOPMENT_TEAM = HHF4895753;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mLab.ScreenTimeDesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA14FA722D4C16220041D037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenTimeDesktop/ScreenTimeDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScreenTimeDesktop/Preview Content\"";
+				DEVELOPMENT_TEAM = HHF4895753;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mLab.ScreenTimeDesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EA14FA742D4C16220041D037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHF4895753;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mLab.ScreenTimeDesktopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenTimeDesktop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenTimeDesktop";
+			};
+			name = Debug;
+		};
+		EA14FA752D4C16220041D037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHF4895753;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mLab.ScreenTimeDesktopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenTimeDesktop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenTimeDesktop";
+			};
+			name = Release;
+		};
+		EA14FA772D4C16220041D037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHF4895753;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mLab.ScreenTimeDesktopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ScreenTimeDesktop;
+			};
+			name = Debug;
+		};
+		EA14FA782D4C16220041D037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HHF4895753;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mLab.ScreenTimeDesktopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ScreenTimeDesktop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA14FA462D4C16210041D037 /* Build configuration list for PBXProject "ScreenTimeDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14FA6E2D4C16220041D037 /* Debug */,
+				EA14FA6F2D4C16220041D037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA14FA702D4C16220041D037 /* Build configuration list for PBXNativeTarget "ScreenTimeDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14FA712D4C16220041D037 /* Debug */,
+				EA14FA722D4C16220041D037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA14FA732D4C16220041D037 /* Build configuration list for PBXNativeTarget "ScreenTimeDesktopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14FA742D4C16220041D037 /* Debug */,
+				EA14FA752D4C16220041D037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA14FA762D4C16220041D037 /* Build configuration list for PBXNativeTarget "ScreenTimeDesktopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14FA772D4C16220041D037 /* Debug */,
+				EA14FA782D4C16220041D037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA14FA432D4C16210041D037 /* Project object */;
+}
