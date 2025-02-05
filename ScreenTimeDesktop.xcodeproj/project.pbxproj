@@ -14,6 +14,7 @@
 		EA14FA612D4C16220041D037 /* ScreenTimeDesktopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA602D4C16220041D037 /* ScreenTimeDesktopTests.swift */; };
 		EA14FA6B2D4C16220041D037 /* ScreenTimeDesktopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA6A2D4C16220041D037 /* ScreenTimeDesktopUITests.swift */; };
 		EA14FA6D2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14FA6C2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift */; };
+		EAA210252D4C74B3005742EF /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA210242D4C74B3005742EF /* Tracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		EA14FA662D4C16220041D037 /* ScreenTimeDesktopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenTimeDesktopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA14FA6A2D4C16220041D037 /* ScreenTimeDesktopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeDesktopUITests.swift; sourceTree = "<group>"; };
 		EA14FA6C2D4C16220041D037 /* ScreenTimeDesktopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeDesktopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA14FA792D4C4A030041D037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAA210242D4C74B3005742EF /* Tracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +98,12 @@
 		EA14FA4D2D4C16210041D037 /* ScreenTimeDesktop */ = {
 			isa = PBXGroup;
 			children = (
+				EA14FA792D4C4A030041D037 /* Info.plist */,
 				EA14FA4E2D4C16210041D037 /* ScreenTimeDesktopApp.swift */,
 				EA14FA502D4C16210041D037 /* ContentView.swift */,
 				EA14FA522D4C16220041D037 /* Assets.xcassets */,
 				EA14FA572D4C16220041D037 /* ScreenTimeDesktop.entitlements */,
+				EAA210242D4C74B3005742EF /* Tracking.swift */,
 				EA14FA542D4C16220041D037 /* Preview Content */,
 			);
 			path = ScreenTimeDesktop;
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA210252D4C74B3005742EF /* Tracking.swift in Sources */,
 				EA14FA512D4C16210041D037 /* ContentView.swift in Sources */,
 				EA14FA4F2D4C16210041D037 /* ScreenTimeDesktopApp.swift in Sources */,
 			);
@@ -429,6 +435,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeDesktop/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +464,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenTimeDesktop/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
