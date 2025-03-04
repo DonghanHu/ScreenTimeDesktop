@@ -1,10 +1,3 @@
-//
-//  Tracking.swift
-//  ScreenTimeDesktop
-//
-//  Created by Donghan Hu on 1/30/25.
-//
-
 import Foundation
 import AppKit
 
@@ -12,6 +5,7 @@ class Tracking {
     private var timer: Timer?
     private let fileManager = FileManager.default
     private let csvFilePath: String
+    private let serverURL = URL(string: "http://167.172.17.221:3000/add-data")!  // Replace with your DigitalOcean IP
 
     init() {
         // Define the path for the CSV file in Documents/ScreenTime/
@@ -51,7 +45,49 @@ class Tracking {
 
         // Save to CSV
         saveToCSV(timestamp: timestamp, appName: appName, windowTitle: windowTitle)
+
+        // Send data to server
+        sendToServer(timestamp: timestamp, appName: appName, windowTitle: windowTitle)
     }
+
+    private func sendToServer(timestamp: String, appName: String, windowTitle: String) {
+        // participant ID
+        let payload: [String: Any] = [
+            "timestamp": timestamp,
+            "names": [appName, windowTitle]
+        ]
+
+        guard let jsonData = try? JSONSerialization.data(withJSONObject: payload) else {
+            print(" Failed to encode JSON")
+            return
+        }
+
+        var request = URLRequest(url: serverURL)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpBody = jsonData
+
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                print(" Network Error: \(error.localizedDescription)")
+                return
+            }
+
+            if let httpResponse = response as? HTTPURLResponse {
+                if (200...299).contains(httpResponse.statusCode) {
+                    print(" Data successfully sent to server!")
+                } else {
+                    print(" Server responded with status code: \(httpResponse.statusCode)")
+                }
+            }
+
+            if let data = data, let responseString = String(data: data, encoding: .utf8) {
+                print(" Server Response: \(responseString)")
+            }
+        }
+        task.resume()
+    }
+
 
     private func getActiveWindowTitle() -> String? {
         guard checkAccessibilityPermissions() else {
